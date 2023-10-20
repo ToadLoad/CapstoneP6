@@ -26,5 +26,14 @@ function TitleChanger(){
   }
   }
 
-/* later */
-clearInterval(refreshIntervalId);
+setTimeout(()=> {
+
+  const myTimeout =document.getElementById('ButtonDisappear');
+  myTimeout.style.display ='none'; 
+
+}
+,1500); 
+
+function Claim() {
+  alert("Use code 'HalfOff' for 50% off Frog Treats");
+  }
